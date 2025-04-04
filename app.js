@@ -47,3 +47,8 @@ socket.on("receiveAudio", (audioChunk) => {
     audioPlayer.src = url;
     audioPlayer.play();
 });
+
+fetch('https://your-backend.onrender.com/upload', {
+  method: 'POST',
+  body: formData
+})
