@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Music Streaming</h1>
+
+    <!-- Room Joining -->
+    <div class="room-section">
+        <label for="room">Enter Room Name:</label>
+        <input type="text" id="room" placeholder="Room Name">
+        <button id="joinRoomBtn">Join Room</button>
+    </div>
+
+    <!-- File Upload -->
+    <div class="upload-section">
+        <label for="audioFile">Upload Audio File:</label>
+        <input type="file" id="audioFile" accept="audio/*">
+        <button id="uploadBtn">Upload</button>
+    </div>
+
+    <!-- Audio Player -->
+    <div class="player-section">
+        <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

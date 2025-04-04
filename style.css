@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.room-section, .upload-section, .player-section {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    max-width: 300px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
